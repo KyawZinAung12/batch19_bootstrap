@@ -1,0 +1,10 @@
+HomeWork
+--------
+
+=>Carousel Indicators
+=>Carousel Caption
+=>Grid row col
+	-phone potrait 1 1 1 1 1 1 
+	-phone lancape 1 1 1 2 2
+	-tablet 1 2 2 2
+	-laptop 1 2 4
