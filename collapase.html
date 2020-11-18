@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Collapse</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+	<h3 class="text-center text-danger my-5">Collapse</h3>
+
+	<div class="accordion" id="Acoordion">
+		<div class="card">
+			<div class="card-header">
+				<button class="btn btn-light btn-block text-left" data-target="#Collapse1" data-toggle="collapse">Item 1</button>
+			</div>
+			<div class="collapse show" id="Collapse1" data-parent="#Acoordion">			
+				<div class="card-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>			
+		</div>
+		<div class="card">
+			<div class="card-header">
+				<button class="btn btn-light btn-block text-left" data-target="#Collapse2" data-toggle="collapse">Item2</button>
+			</div>
+			<div class="collapse" id="Collapse2" data-parent="#Acoordion">
+				<div class="card-body">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+
+	<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
